@@ -1,0 +1,18 @@
+# Python
+venv/
+*.pyc
+__pycache__/
+
+# OS
+.DS_Store
+
+# Secrets
+.env
+
+# Storage (don't commit user data)
+storage/uploads/
+storage/vector_store/
+
+# Frontend
+frontend/node_modules/
+frontend/build/

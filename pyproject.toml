@@ -1,0 +1,29 @@
+[project]
+name = "askvoilet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bcrypt==3.2.0",
+    "faiss-cpu==1.8.0",
+    "fastapi==0.109.0",
+    "jpype1>=1.7.1",
+    "langchain==0.3.12",
+    "langchain-community==0.3.12",
+    "langchain-core==0.3.28",
+    "langchain-huggingface==0.1.2",
+    "langchain-google-genai>=2.0.0",
+    "langchain-openai==0.2.14",
+    "openai==1.58.1",
+    "pandas==2.1.4",
+    "passlib>=1.7.4",
+    "pymupdf==1.23.26",
+    "python-dotenv==1.0.0",
+    "python-jose[cryptography]==3.3.0",
+    "python-multipart==0.0.6",
+    "sentence-transformers==2.7.0",
+    "sqlalchemy==2.0.29",
+    "tabula-py==2.9.0",
+    "uvicorn[standard]==0.27.0",
+]
