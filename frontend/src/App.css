@@ -1,0 +1,17 @@
+.app-shell {
+  min-height: 100vh;
+}
+
+.app-sidebar {
+  width: 19rem;
+  flex-shrink: 0;
+}
+
+.app-main {
+  min-width: 0;
+}
+
+.message-content {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
